@@ -1,0 +1,23 @@
+Realice las tablas de verdad de las siguientes operaciones de lógica booleana:
+
+a. A ^ B
+Proposición: A
+Proposición: B
+A y B = T
+
+
+b. (¬A ^ B) v C
+
+
+
+c. ¬(A v C) ^B
+
+
+
+d. (B ^ C)^(¬A)
+
+
+
+e. (M ^ (¬A)) v (¬C)
+
+
