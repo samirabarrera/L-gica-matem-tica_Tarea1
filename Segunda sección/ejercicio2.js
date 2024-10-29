@@ -2,7 +2,6 @@
 //Diseñe una función para recomendar productos a un usuario basado en varios factores.
 
 
-
 function recommendProduct (age, isMember, purchaseHistory) {
     if ((isMember === true && purchaseHistory.tech >= 5) || (age >= 18 && age <= 30 && purchaseHistory.fashion >= 2)) {
         return ("High-Tech Product")
