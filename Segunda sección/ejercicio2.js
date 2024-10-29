@@ -1,32 +1,23 @@
 //Ejercicio 2: Motor de Recomendación de Productos
 //Diseñe una función para recomendar productos a un usuario basado en varios factores.
 
-const usuario1 = {
-    age: 22,
-    isMember: true,
-    purchaseHistory: () => {
-        tech = 6,
-        fashion = 1,
-        other = 2
-    }
 
-}
-const usuario2 = {
-    age: {min: 25, max: 40},
-    isMember: false,
-    purchaseHistory: {
-        tech: 1,
-        fashion: 1,
-        other: 1
+
+function recommendProduct (age, isMember, purchaseHistory) {
+    if ((isMember === true && purchaseHistory.tech >= 5) || (age >= 18 && age <= 30 && purchaseHistory.fashion >= 2)) {
+        return ("High-Tech Product")
+    } else if (age >= 18 && purchaseHistory.fashion >= 2){
+        return ("Fashion Product")
+    } else {
+        return ("Low-Tech Product")
     }
 }
-const usuarios = (usuario1, usuario2) => {
-        if (age === 22 && isMember === true) {
-            return ("High-Tech Product")
-        } else {
-            return ("Low-Tech Product")
-        }
-    } 
-    function recommendProduct (age, isMember, purchaseHistory) {
-        console.log(recommendProduct(22, true, { tech: 6, fashion: 1, other: 2 }));
-    }
+console.log(recommendProduct(22, true, { tech: 6, fashion: 1, other: 2 }));
+
+//tech = 1,
+//fashion = 1,
+//other = 1
+
+//tech = 6,
+//fashion = 1,
+//other = 2

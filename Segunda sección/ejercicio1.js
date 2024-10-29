@@ -4,6 +4,8 @@
 function evaluateRisk (income, hasLoans, latePayments, isStudent){
         if (income <= 20000 && hasLoans === true && latePayments <= 4){
             return ("High")
+        } else if (income >= 20000 && latePayments ) {
+            return ("Moderate")
         } else {
             return ("Low")
         }
