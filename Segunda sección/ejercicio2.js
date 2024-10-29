@@ -12,11 +12,3 @@ function recommendProduct (age, isMember, purchaseHistory) {
     }
 }
 console.log(recommendProduct(22, true, { tech: 6, fashion: 1, other: 2 }));
-
-//tech = 1,
-//fashion = 1,
-//other = 1
-
-//tech = 6,
-//fashion = 1,
-//other = 2
