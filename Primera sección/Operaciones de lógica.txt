@@ -32,18 +32,25 @@ F       F       F     T      F          F
 
 
 d. (B^C)^(¬A)
-A       B       C     ¬A    (B ^ C) 
-T       T       T     F      T          
-T       T       F     F      T          
-T       F       T     F      T          
-T       F       F     F      T          
-F       T       T     T      T          
-F       T       F     T      T          
-F       F       T     T      F          
-F       F       F     T      F          
+A       B       C     ¬A    (B^C) 
+T       T       T     F       T          
+T       T       F     F       F          
+T       F       T     F       F          
+T       F       F     F       F         
+F       T       T     T       T          
+F       T       F     T       F          
+F       F       T     T       F          
+F       F       F     T       F          
 
 
 
 e. (M^(¬A)) v (¬C)
-
-
+M       A       C     ¬A    (¬C)    (M^(¬A))   (M^(¬A)) v (¬C)
+T       T       T     F       F          T          
+T       T       F     F       T          T
+T       F       T     T       F          T
+T       F       F     T       T          T
+F       T       T     F       F          F
+F       T       F     F       T          F
+F       F       T     T       F          F
+F       F       F     T       T          F
